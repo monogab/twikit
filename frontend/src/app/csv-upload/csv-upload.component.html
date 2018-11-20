@@ -1,0 +1,5 @@
+<div class="text-center mt-4">
+  <input class="btn btn-primary" type="file" name="filetoupload" (change)="convert($event)">
+</div>
+
+<app-table-for-csv [header]="tableheader" [lines]="tabledata"></app-table-for-csv>
