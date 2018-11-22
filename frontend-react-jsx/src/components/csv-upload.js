@@ -20,7 +20,7 @@ class CsvUpload extends React.Component {
     }
     fetchTable(formData){
 
-        fetch(`http://localhost:3000/api/csv2json`, {
+        fetch(`api/csv2json`, {
             method: 'POST',
             body: formData // This is your file object
         })
