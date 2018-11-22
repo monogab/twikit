@@ -41,7 +41,7 @@ class CsvUploadComponent extends React.Component {
     };
 
     render() {
-        let Table = null;
+        let Table = '';
         if (this.state.tableheader) {
             const TableTh = this.state.tableheader.map((item) => React.createElement("th", null, item));
 
